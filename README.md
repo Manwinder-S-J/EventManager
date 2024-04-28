@@ -8,7 +8,7 @@ This Event Registration System is a web application built with Django server, Py
 This project facilitates event management, allowing administrators to create, update, delete events, delete users from an event, and generate reports on users and registrations. Registrants can create accounts, register for events, and view their registration details.
 
 ## Accounts
-#### Admin
+#### Administrator
 - **username**: admin
 - **password**: Admin123
 
