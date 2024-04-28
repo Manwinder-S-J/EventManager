@@ -1,8 +1,21 @@
 # Event Manager
 
 ## Overview
-This Event Registration System is a web application built with Django server, Python, HTML, CSS, and Bootstrap. It facilitates event management, allowing administrators to create, update, delete events, delete users from an event, and generate reports on users and registrations. Registrants can create accounts, register for events, and view their registration details.
+This Event Registration System is a web application built with Django server, Python, HTML, CSS, and Bootstrap.
+</br>There are two types of groups:</br>
+- Administrators
+- Registrants(users)</br>
+This project facilitates event management, allowing administrators to create, update, delete events, delete users from an event, and generate reports on users and registrations. Registrants can create accounts, register for events, and view their registration details.
 
+## Accounts
+#### Administrator
+- **username**: admin
+- **password**: Admin123
+
+#### Registrants
+- **usernames**: SamS, JackB, JackS, JohnJ, Jordan, JesseJ, MIkeM, JohnD, 
+- **passwords**: Idontknow123
+  
 ## Features
 
 ### Accounts
@@ -38,11 +51,7 @@ cd eventManager_project
 ```bash
 python manage.py migrate
 ```
-5. Create an admin account:(optional)
-```bash
-python manage.py createsuperuser
-```
-6. Run the server:
+4. Run the server:
 ```bash
 python manage.py runserver
 ```
