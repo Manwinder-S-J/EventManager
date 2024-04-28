@@ -51,11 +51,7 @@ cd eventManager_project
 ```bash
 python manage.py migrate
 ```
-5. Create an admin account:(optional)
-```bash
-python manage.py createsuperuser
-```
-6. Run the server:
+4. Run the server:
 ```bash
 python manage.py runserver
 ```
